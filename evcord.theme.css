@@ -1,0 +1,72 @@
+/**
+ * @name Evcord Theme
+ * @description Ev is crazy to like this.
+ * @author Blake
+ * @version 69
+ * @source https://github.com/Apticle/Evcord
+ * @updateUrl https://raw.githubusercontent.com/Apticle/Evcord/main/evcord.theme.css
+*/
+
+/* Import raw */
+@import url(https://raw.githubusercontent.com/Apticle/Evcord/main/evcord.css);
+
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+::-webkit-input-placeholder, body, button, input, select, textarea {
+  font-family: "Montserrat";
+}
+
+:root {
+  --primary: #eca1ac;
+  --secondary:#e27589;
+  --secondary-alpha:#b25b6e;
+  --tertiary:#e27589;
+  --tertiary-alpha:#da6076;
+  --primary-light: #ecbac1;
+  --accent: #7289da;
+  --accent-alpha: rgba(100, 148, 237, 0.2);
+  --accent-alpha-alt2: rgba(100, 148, 237, 0.5);
+  --accent-dark: hsl(219, 79%, 33%);
+  --accent-light:grey;
+  --mention-color:#e48596;
+  --mention-color-alt: #e27589;
+  --mention-color-alt2: #da6076;
+  --ping-width: 30px;
+  --text-grey: #2c2f33;
+
+  /* powercord */
+  --spotify-color: var(--accent) !important;
+  --toast-header: var(--secondary) !important;
+  --toast-background: var(--primary) !important;
+  --toast-border: var(--tertiary) !important;
+  --toast-contents: var(--secondary) !important;
+  
+  /* discord vars */
+  --background-primary: var(--primary);
+  --background-secondary: var(--secondary);
+  --background-secondary-alt: var(--secondary);
+  --background-tertiary: var(--secondary);
+  --background-accent: var(--accent);
+  --background-message-hover: var(--tertiary-alpha);
+  --scrollbar-thumb: var(--primary-light);
+  --scrollbar-thin-thumb: var(--primary-light);
+  --scrollbar-auto-scrollbar-color-thumb: var(--primary-light);
+  --scrollbar-auto-track: var(--primary);
+  --scrollbar-auto-scrollbar-color-track: var(--primary);
+  --scrollbar-auto-thumb: var(--primary-light);
+  --text-link: var(--accent);
+  --focus-primary: var(--accent);
+  --background-modifier-accent: var(--tertiary);
+  --background-modifier-selected: var(--secondary);
+  --background-modifier-hover: var(--tertiary);
+  --background-modifier-active: var(--tertiary);
+  --header-primary:#23272a;
+  --background-floating: var(--secondary);
+  --deprecated-text-input-border: var(--tertiary);
+  --deprecated-card-editable-bg: var(--secondary);
+  --deprecated-card-bg: var(--secondary);
+  --deprecated-text-input-bg: var(--secondary);
+  --deprecated-text-input-border: var(--tertiary);
+  --deprecated-quickswitcher-input-background: var(--primary);
+  --brand-experiment: var(--accent) !important;
+}
