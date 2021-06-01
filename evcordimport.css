@@ -235,7 +235,7 @@
 .closeButton-1tv5uR:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background-color: var(--accent-alpha) !important;
-  border-color: var(--text-grey) !important;
+  border-color: #fff !important;
 }
 
 .card-FDVird:before,
@@ -274,7 +274,7 @@
 }
 
 .notDetected-33MY4s .gameName-1RiWHm {
-  color: var(--text-grey) !important;
+  color: #fff !important;
 }
 
 .connectionHeader-2MDqhu {
@@ -414,7 +414,7 @@
 }
 
 .title-29uC1r {
-  color: var(--text-grey);
+  color: #ffffff;
 }
 
 /* SEARCHBAR */
@@ -457,7 +457,7 @@
 
 .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T,
 .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T:hover {
-  color: var(--text-grey) !important;
+  color: #fff !important;
 }
 
 .colorable-1bkp8v.primaryDark-3mSFDl {
@@ -482,7 +482,7 @@
 .name-1jkAdW,
 .tierTooltipTitle-3AtaZT {
   /* usernames are white */
-  color: var(--text-grey);
+  color: #ffffff;
 }
 
 .searchAnswer-3Dz2-q,
@@ -521,7 +521,7 @@
 }
 
 .checkbox-1ix_J3 svg path {
-  fill: var(--text-grey) !important;
+  fill: #fff !important;
 }
 
 .checkbox-1ix_J3:not(.checked-3_4uQ9) svg path {
@@ -612,7 +612,7 @@
 }
 
 .base-1x0h_U {
-  color: var(--text-grey);
+  color: #fff;
 }
 
 .container-UC8Ug1 {
@@ -624,7 +624,7 @@
 }
 
 .colorStandard-2KCXvj {
-  color: var(--text-grey);
+  color: #fff;
 }
 
 .content-1LAB8Z.templatesList-2E6rTe.thin-1ybCId.scrollerBase-289Jih {
