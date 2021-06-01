@@ -1,6 +1,6 @@
 /**
  * @name Evcord
- * @description Ev is crazy to like this.
+ * @description A simple dark/pastel pink theme made to Ev's specs.
  * @author Blake
  * @version 69
  * @source https://github.com/Apticle/Evcord
@@ -14,20 +14,20 @@
 }
 
 :root {
-  --primary: #eca1ac;
-  --secondary:#e27589;
-  --secondary-alpha:#b25b6e;
-  --tertiary:#e2677e;
-  --tertiary-alpha:#da6076;
-  --primary-light: #c9aeb2;
-  --accent: #7289da;
-  --accent-alpha: rgba(100, 148, 237, 0.2);
+  --primary:rgb(26, 26, 26);
+  --secondary:black;
+  --secondary-alpha:rgb(22, 22, 22);
+  --tertiary:rgb(36, 33, 33);
+  --tertiary-alpha:rgb(48, 48, 48);
+  --primary-light:rgb(24, 24, 24);
+  --accent: #e27589;
+  --accent-alpha:#eca1ac;
   --accent-alpha-alt2: rgba(100, 148, 237, 0.5);
-  --accent-dark: #da546c;
-  --accent-light:#da546c;
-  --mention-color:#e48596;
-  --mention-color-alt: #e27589;
-  --mention-color-alt2: #da6076;
+  --accent-dark: #b25b6e;
+  --accent-light:#f9cdd4;
+  --mention-color:#b25b6e;
+  --mention-color-alt: #b25b6e;
+  --mention-color-alt2: #b25b6e;
   --ping-width: 30px;
 
   /* powercord */
@@ -56,7 +56,7 @@
   --background-modifier-selected: var(--secondary);
   --background-modifier-hover: var(--tertiary);
   --background-modifier-active: var(--tertiary);
-  --header-primary:white;
+  --header-primary:grey;
   --background-floating: var(--secondary);
   --deprecated-text-input-border: var(--tertiary);
   --deprecated-card-editable-bg: var(--secondary);
