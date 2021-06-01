@@ -7,9 +7,6 @@
  * @updateUrl https://raw.githubusercontent.com/Apticle/Evcord/main/evcord.theme.css
 */
 
-/* Import raw */
-@import url("https://raw.githubusercontent.com/Apticle/Evcord/main/evcord2.css");
-
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 ::-webkit-input-placeholder, body, button, input, select, textarea {
